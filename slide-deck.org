@@ -177,7 +177,7 @@ Known to run on many platforms, and interesting places.
 
 - Policy cached locally
 - Decisions made locally
-- Convergence :: Repair what you can and re-vist soon
+- Convergence :: Repair what you can and re-visit soon
 
 ** Declarative                                                      :ATTACH:
 :PROPERTIES:
@@ -223,7 +223,7 @@ it to? (Alaskan airports, ponds, fields, etc ...)
 
 #+BEGIN_NOTES
   - Interesting places:
-    - Industrial (lazer cutters, water testing devices)
+    - Industrial (laser cutters, water testing devices)
     - Smart Infrastructure (Trains, Trams, Signs, Grocery Shopper Behaviour)
   - Integrating CFEngine with other services
     - Classes and variables from data provided by other services (JSON)
@@ -549,7 +549,7 @@ Build into your workflow!
 - Bootstrapping establishes trust relationship
 - Policy server bootstraps to itself
 - Agent runs locally cached policy in =/var/cfengine/inputs=
-- Communicates over port *=5308=* (tcp)
+- Communicates over port *5308* (tcp)
 - Agents downloads policy from server
 - Hub downloads reports from remote agents
 
